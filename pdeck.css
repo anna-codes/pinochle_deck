@@ -1,0 +1,61 @@
+
+/*font curtesy of fontsquirrel.com*/
+@font-face {
+	font-family: AquilineTwo;
+	src: url('AquilineTwo.eot');
+	src: url('AquilineTwo.eot?iefix') format('eot'),
+	     url('AquilineTwo.woff') format('woff'),
+	     url('AquilineTwo.ttf') format('truetype'),
+	     url('AquilineTwo.svg#AquilineTwo') format('svg');
+}
+
+.heart,
+.diamond {
+  color: #ff0000;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+@media (max-width: 599.9px) {
+	.card {
+      border: 1px solid #000;
+      border-radius: 7px;
+      display: inline-block;
+      font: 1.6rem AquilineTwo, serif;
+      height: 11rem;
+      text-align: center;
+      width: 7rem;
+	}
+}
+
+@media (min-width: 600px)
+and (max-width: 1023.9px) {
+	.card {
+		border: 1px solid #000;
+		border-radius: 7px;
+		display: inline-block;
+		font: 2rem AquilineTwo, serif;
+		height: 12rem;
+		text-align: center;
+		width: 8rem;
+	}
+}
+
+@media (min-width: 1024px) {
+	.card {
+		border: 1px solid #000;
+		border-radius: 7px;
+		display: inline-block;
+		font: 3rem AquilineTwo, serif;
+		height: 18rem;
+		text-align: center;
+		width: 12rem;
+	}
+}
+
+.spade,
+.club {
+  color: #000000;
+}
